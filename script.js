@@ -1,1 +1,5 @@
-const animation = document.getElementById("");
+const animation = document.getElementById("animateLorem");
+
+animation.addEventListener("click", () => {
+  console.log("Salut je fonctionnne");
+});
